@@ -135,6 +135,7 @@ for n, item in enumerate(filename_list):
     tf.logging.fatal('File does not exist %s', filepath)
   image_data = gfile.FastGFile(filepath, 'rb').read()
 
+  #import pdb; pdb.set_trace()
   start_predict = time.time()
   predictions = sess.run(softmax_tensor, 
     {'DecodeJpeg/contents:0': image_data})
