@@ -1,6 +1,6 @@
 # tf
 - tensorflow examples
-- prediction for ILSVRC2012 validation set with [inception-v2](https://www.tensorflow.org/versions/master/tutorials/image_recognition/index.html)
+- prediction for ILSVRC2012 validation set with [inception-v3](https://www.tensorflow.org/versions/master/tutorials/image_recognition/index.html)
   ```Shell
 python predict_ilsvrc12_inception-2015-12-05.py 
 
